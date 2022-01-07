@@ -53,7 +53,7 @@ class WalletsController extends Controller
                 Session::flash('error', 'Insufficient funds');
             }
         } else {
-            Session::flash('error', 'Customer not found on this platform');
+            Session::flash('error', 'Customer not found on this');
         }
         return back();
     }
